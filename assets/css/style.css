@@ -208,3 +208,24 @@ footer{
     text-align: center;
     font-size: 12px;
 }
+
+@media (max-width: 576px) {
+    .top-navbar{
+        display: none;
+    }
+
+    .box-profile .box-content{
+        justify-content: center;
+    }
+
+    .box-profile .box-content .box-words{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .box-profile .box-content .box-words h1{
+        border: none;
+    }
+}
