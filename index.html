@@ -6,120 +6,196 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio | Sayyid Deo Amirul</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
     <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
 </head>
 
-<body id="home">
+<body id="home" class="bg-gray-100 relative">
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand text-uppercase" href="#">Portofolio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link">Beranda</a>
-                    </li>
-                    </ul> -->
-                    <span class="navbar-text">
-                    Hai, Selamat datang di website saya
-                    </span>
-                </div>
-            </div>
-        </nav>
+    <header class="w-full h-screen py-5 bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500" >
     </header>
-
-    <main>
-
-        <section class="py-5 text-center container">
-            <div class="row py-lg-5">
-                <div class="col-lg-6 col-lg-8 mx-auto">
-                    <h1 class="fw-light" >Sekilas Tentang Saya</h1>
-                    <p class="lead text-muted fs-6">
-                        Nama saya Sayyid Deo Amirul Mukmin, biasa di panggil Deo. Kota kelahiran saya ada di sidoarjo dan tahun kelahiran saya 2001.
-                        Pendidikan terakhir saya untuk saat ini di tingkat SMK/SMA. Saya mendalami pemrograman web sejak kelas 2 SMK, dalam 3 tahun 
-                        saya telah menyelesaikan beberapa aplikasi berbasis website dan mobile.
-                    </p>
-                    <p>
-                        <a href="./assets/pdf/Curiculum-Vitae-PDF-2022.pdf" class="btn btn-primary py-2" target="_blank">Lihat Daftar Riwayat Hidup</a>
+    <main class="bg-white absolute top-80 w-full px-10 rounded-t-3xl" >
+        <div class="w-full -top-20 relative" >
+            <div class="w-40 rounded-full border-8 border-white mx-auto" >
+                <img src="./assets/image/my_photo.png" alt="" class="w-full rounded-full"> 
+            </div>
+            <section class="pb-12">
+                <div class="text-center my-4" >
+                    <h1 class="text-2xl uppercase font-bold mb-3" >Sayyid Deo Amirul Mukmin</h1>
+                    <p class="text-gray-400 text-sm" > Web Developer | Mobile Developer </p>
+                </div>
+                <div class="mx-auto md:w-6/12 p-5" >
+                    <p class="text-justify" >
+                        Nama saya Sayyid Deo Amirul Mukmin, biasa di panggil Deo. Kota kelahiran saya ada di sidoarjo dan tahun kelahiran saya 2001. Pendidikan terakhir saya untuk saat ini di tingkat SMK/SMA. Saya mendalami pemrograman web sejak kelas 2 SMK, dalam 3 tahun saya telah menyelesaikan beberapa aplikasi berbasis website dan mobile. 
                     </p>
                 </div>
-            </div>
-        </section>
-        <div class="py-5 bg-light">
-            <div class="container">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./assets/image/portfolio/cbt-online-1.png" alt="" width="100%" height="225" class="bd-placeholder-img card-img-top">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Computer Based Test (CBT) Online adalah aplikasi berbasis website untuk test/ujian sekolah.
-                                </p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <small class="text-muted">19 days ago</small>
-                                </div>
+                <div class="w-full text-center">
+                    <a class="bg-indigo-400 hover:bg-indigo-500 px-3 py-2 text-sm text-white" href="./assets/pdf/Curiculum-Vitae-PDF-2022.pdf">Download Resume</a>
+                </div>
+            </section>
+            <section class="pb-12 w-ful" >
+                <div class="mx-auto w-6/12 text-center" >
+                    <h1 class="text-4xl font-semibold mb-5 uppercase" >Kemampuan</h1>
+                </div>
+                <div class="grid md:grid-cols-2 gap-10 w-10/12 mx-auto">
+                    <div class="py-4" >
+                        <div class="w-full mb-2">
+                            <div class="flex row justify-between mb-2">
+                                <h1 class="uppercase text-sm font-semibold" >html</h1>
+                                <h1 class="uppercase text-sm font-semibold" >70%</h1>
+                            </div>
+                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
+                                <div class="h-full bg-indigo-500 rounded-full" style="width: 70%;" ></div>
+                            </div>
+                        </div>
+                        <div class="w-full mb-2">
+                            <div class="flex row justify-between mb-2">
+                                <h1 class="uppercase text-sm font-semibold" >css</h1>
+                                <h1 class="uppercase text-sm font-semibold" >70%</h1>
+                            </div>
+                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
+                                <div class="h-full bg-indigo-500 rounded-full" style="width: 70%;" ></div>
+                            </div>
+                        </div>
+                        <div class="w-full mb-2">
+                            <div class="flex row justify-between mb-2">
+                                <h1 class="uppercase text-sm font-semibold" >Javascript</h1>
+                                <h1 class="uppercase text-sm font-semibold" >75%</h1>
+                            </div>
+                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
+                                <div class="h-full bg-indigo-500 rounded-full" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="w-full mb-2">
+                            <div class="flex row justify-between mb-2">
+                                <h1 class="uppercase text-sm font-semibold" >PHP</h1>
+                                <h1 class="uppercase text-sm font-semibold" >80%</h1>
+                            </div>
+                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
+                                <div class="h-full bg-indigo-500 rounded-full" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="w-full mb-2">
+                            <div class="flex row justify-between mb-2">
+                                <h1 class="uppercase text-sm font-semibold" >MySql</h1>
+                                <h1 class="uppercase text-sm font-semibold" >60%</h1>
+                            </div>
+                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
+                                <div class="h-full bg-indigo-500 rounded-full" style="width: 60%;" ></div>
+                            </div>
+                        </div>
+                        <div class="w-full mb-2">
+                            <div class="flex row justify-between mb-2">
+                                <h1 class="uppercase text-sm font-semibold" >Laravel</h1>
+                                <h1 class="uppercase text-sm font-semibold" >85%</h1>
+                            </div>
+                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
+                                <div class="h-full bg-indigo-500 rounded-full" style="width: 85%;" ></div>
+                            </div>
+                        </div>
+                        <div class="w-full mb-2">
+                            <div class="flex row justify-between mb-2">
+                                <h1 class="uppercase text-sm font-semibold" >React & React Native</h1>
+                                <h1 class="uppercase text-sm font-semibold" >55%</h1>
+                            </div>
+                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
+                                <div class="h-full bg-indigo-500 rounded-full" style="width: 55%;" ></div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./assets/image/portfolio/sma-mutiarabunda-1.png" alt="" width="100%" height="225" class="bd-placeholder-img card-img-top">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Website Profil Sekolah, mengelola data mulai dari event kegiatan, berita dan pengumuman sekolah.
-                                </p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <small class="text-muted">19 days ago</small>
-                                </div>
+                    <div class="py-4" >
+                        <div class="w-full mb-2">
+                            <div class="flex row justify-between mb-2">
+                                <h1 class="uppercase text-sm font-semibold" >Kemauan Belajar</h1>
+                                <h1 class="uppercase text-sm font-semibold" >90%</h1>
+                            </div>
+                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
+                                <div class="h-full bg-pink-500 rounded-full" style="width: 90%;" ></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./assets/image/portfolio/ERP-Application.png" alt="" width="100%" height="225" class="bd-placeholder-img card-img-top">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Enterprise Resource Planning (ERP) Application untuk mengelola data dan beberapa aktivitas operasional bisnis
-                                </p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <small class="text-muted">19 days ago</small>
-                                </div>
+                        <div class="w-full mb-2">
+                            <div class="flex row justify-between mb-2">
+                                <h1 class="uppercase text-sm font-semibold" >Pemecahan Masalah</h1>
+                                <h1 class="uppercase text-sm font-semibold" >80%</h1>
+                            </div>
+                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
+                                <div class="h-full bg-pink-500 rounded-full" style="width: 80%;" ></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./assets/image/portfolio/Sistem-Order-Application.png" alt="" width="100%" height="225" class="bd-placeholder-img card-img-top">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Sistem Order Application untuk mengelola data dan mengelola pesanan barang vendor atau pelanggan
-                                </p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <small class="text-muted">19 days ago</small>
-                                </div>
+                        <div class="w-full mb-2">
+                            <div class="flex row justify-between mb-2">
+                                <h1 class="uppercase text-sm font-semibold" >Kreatifitas</h1>
+                                <h1 class="uppercase text-sm font-semibold" >70%</h1>
+                            </div>
+                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
+                                <div class="h-full bg-pink-500 rounded-full" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="w-full mb-2">
+                            <div class="flex row justify-between mb-2">
+                                <h1 class="uppercase text-sm font-semibold" >Bekerja dalam tim</h1>
+                                <h1 class="uppercase text-sm font-semibold" >90%</h1>
+                            </div>
+                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
+                                <div class="h-full bg-pink-500 rounded-full" style="width: 90%;"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
+            <section class="pb-12 w-full">
+                <div class="mx-auto w-6/12 text-center" >
+                    <h1 class="text-4xl font-semibold mb-5 uppercase" >Portofolio</h1>
+                </div>
+                <div class="grid md:grid-cols-3 gap-10">
+                    <div class="bg-white shadow-lg rounded-lg overflow-hidden" >
+                        <img src="./assets/image/portfolio/cbt-online-1.png" alt="" class="bd-placeholder-img card-img-top">
+                        <div class="px-4 py-6">
+                            <p class="text-sm">
+                                Computer Based Test (CBT) Online adalah aplikasi berbasis website untuk test/ujian sekolah. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-white shadow-lg rounded-lg overflow-hidden" >
+                        <img src="./assets/image/portfolio/sma-mutiarabunda-1.png" alt="" class="bd-placeholder-img card-img-top">
+                        <div class="px-4 py-6">
+                            <p class="text-sm">
+                                Website Profil Sekolah, mengelola data mulai dari event kegiatan, berita dan pengumuman sekolah.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-white shadow-lg rounded-lg overflow-hidden" >
+                        <img src="./assets/image/portfolio/ERP-Application.png" alt="" class="bd-placeholder-img card-img-top">
+                        <div class="px-4 py-6">
+                            <p class="text-sm">
+                                Enterprise Resource Planning (ERP) Application untuk mengelola data dan beberapa aktivitas operasional bisnis
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-white shadow-lg rounded-lg overflow-hidden" >
+                        <img src="./assets/image/portfolio/Sistem-Order-Application.png" alt="" class="bd-placeholder-img card-img-top">
+                        <div class="px-4 py-6">
+                            <p class="text-sm">
+                                Sistem Order Application untuk mengelola data dan mengelola pesanan barang vendor atau pelanggan
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt-12 w-full" >
+                <p class="text-xs md:text-sm text-gray-400" >
+                    Kontak yang bisa di hubungi : +62 822 - 2823 - 0137
+                </p>
+                <p class="text-xs md:text-sm text-gray-400" >
+                    copyright &copy; sayyiddeo.real@gmail.com
+                </p>
+            </section>
         </div>
     </main>
 
-    <footer class="text-muted py-5">
-        <div class="container">
-            <p class="mb-1">Kontak yang bisa di hubungi : +62 822 - 2823 - 0137</p>
-            <p class="mb-1">copyright &copy; sayyiddeo.real@gmail.com</p>
-        </div>
-    </footer>
-
-    <script src="./assets/js/jquery.js"></script>
+    <!-- <script src="./assets/js/jquery.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script> -->
 </body>
 
 </html>
