@@ -7,195 +7,347 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio | Sayyid Deo Amirul</title>
     <link rel="stylesheet" href="./assets/css/app.css">
-    <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
 </head>
 
-<body id="home" class="bg-gray-100 relative">
+<body id="home" class="bg-indigo-50 text-slate-700 p-3">
 
-    <header class="w-full h-screen py-5 bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500" >
-    </header>
-    <main class="bg-white absolute top-80 w-full px-10 rounded-t-3xl" >
-        <div class="w-full -top-20 relative" >
-            <div class="w-40 rounded-full border-8 border-white mx-auto" >
-                <img src="./assets/image/my_photo.png" alt="" class="w-full rounded-full"> 
+    <main class="w-full lg:w-7/12 lg:mx-auto" >
+        <div class="w-full grid grid-cols md:grid-cols-5 gap-4" >
+            <div class="col-span-3" >
+                <section class="w-full bg-white shadow rounded p-5 mb-5" >
+                    <div class="flex flex-row items-center mb-3" >
+                        <div class="w-16" >
+                            <img src="./assets/image/my_photo.png" alt="" class="w-full rounded-full">
+                        </div>
+                        <div class="ml-5" >
+                            <h1 class="font-bold" >Sayyid Deo Amirul Mukmin</h1>
+                            <span class="font-light text-xs" >Web Developer | Mobile Developer</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="mt-3" >
+                        <p class="text-justify font-light text-sm" >
+                            Hai! Perkenalkan nama saya Deo, keahlian saya adalah pengembang aplikasi berbasis website 
+                            tetapi saya juga memiliki sedikit keahlian di bidang android ( Hybrid ). Latar belakang pendidikan saya 
+                            SMK dengan jurusan Rekayasa Perangkat Lunak, saya masuk dalam dunia pemrograman atau pengembang aplikasi 
+                            sudah sekitar 3 - 4 tahun.
+                        </p>
+                    </div>
+                </section>
+                <section class="w-full bg-white shadow rounded p-5 mb-5" >
+                    <img src="./assets/image/portfolio/cbt-online-1.png" alt="" class="mb-3">
+                    <hr>
+                    <h1 class="my-3 text-lg font-bold uppercase" >Computer Based Test</h1>
+                    <div class="text-xs font-light mb-1" >
+                        <span>TAG : PHP, Javascript, Codeigniter 4, MySQL, Bootstrap 4</span>
+                    </div>
+                    <div class="text-xs font-light mb-1" >
+                        <span>Deskripsi : </span>
+                        <p>
+                            Computer Based Test (CBT) Online adalah aplikasi berbasis website untuk test/ujian sekolah. 
+                            Aplikasi ini dibuat dengan bahasa pemrograman PHP dan Javascript, dengan menggunakan Framework 
+                            Code Igniter 4, untuk penyimpanan data nya menggunakan MySQL
+                        </p>
+                    </div>
+                </section>
+                <section class="w-full bg-white shadow rounded p-5 mb-5" >
+                    <img src="./assets/image/portfolio/sma-mutiarabunda-1.png" alt="" class="mb-3">
+                    <hr>
+                    <h1 class="my-3 text-lg font-bold uppercase" >Website Profil Sekolah</h1>
+                    <div class="text-xs font-light mb-1" >
+                        <span>TAG : PHP, Javascript, Codeigniter 4, MySQL, Bootstrap 4</span>
+                    </div>
+                    <div class="text-xs font-light mb-1" >
+                        <span>Deskripsi : </span>
+                        <p>
+                            Website Profil Sekolah ( SMA Mutiara Bunda Sidoarjo ) digunakan untuk mengelola data sekolah, data kegiatan sekolah 
+                            dan informasi tentang sekolah. Aplikasi ini dibuat dengan bahasa pemrograman PHP dan Javascript, menggunakan Framework 
+                            Code Igniter 4, dan menggunakan MySQL
+                        </p>
+                    </div>
+                </section>
+                <section class="w-full bg-white shadow rounded p-5 mb-5" >
+                    <img src="./assets/image/portfolio/ERP-Application.png" alt="" class="mb-3">
+                    <hr>
+                    <h1 class="my-3 text-lg font-bold uppercase" >Enterprise Resource Planning (ERP)</h1>
+                    <div class="text-xs font-light mb-1" >
+                        <span>TAG : PHP, Javascript, Laravel, MySQL, Bootstrap 4</span>
+                    </div>
+                    <div class="text-xs font-light mb-1" >
+                        <span>Deskripsi : </span>
+                        <p>
+                            Enterprise Resource Planning (ERP) Application untuk mengelola data dan beberapa aktivitas operasional bisnis perusahaan. Aplikasi ini 
+                            dibuat dengan bahasa pemrograman PHP dan Javascript, menggunakan Framework 
+                            Laravel, dan menggunakan MySQL
+                        </p>
+                    </div>
+                </section>
+                <section class="w-full bg-white shadow rounded p-5 mb-5" >
+                    <img src="./assets/image/portfolio/Sistem-Order-Application.png" alt="" class="mb-3">
+                    <hr>
+                    <h1 class="my-3 text-lg font-bold uppercase" >Aplikasi Sistem Pemesanan ( Order )</h1>
+                    <div class="text-xs font-light mb-1" >
+                        <span>TAG : PHP, Javascript, Laravel, MySQL, Bootstrap 4</span>
+                    </div>
+                    <div class="text-xs font-light mb-1" >
+                        <span>Deskripsi : </span>
+                        <p>
+                            Aplikasi Sistem Pemesanan untuk mengelola data dan mengelola pesanan barang vendor atau pelanggan. Aplikasi 
+                            dibuat dengan menggunakan bahasa pemrograman PHP dan Javascript, dan menggunakan Framework Laravel, untuk database menggunakan 
+                            MySQL
+                        </p>
+                    </div>
+                </section>
+                <section class="w-full bg-white shadow rounded p-5 mb-5" >
+                    <img src="./assets/image/portfolio/landing-page-fasty.png" alt="" class="mb-3">
+                    <hr>
+                    <h1 class="my-3 text-lg font-bold uppercase" >Website Profil Produk</h1>
+                    <div class="text-xs font-light mb-1" >
+                        <span>TAG : PHP, Javascript, Laravel, MySQL, Tailwind CSS</span>
+                    </div>
+                    <div class="text-xs font-light mb-1" >
+                        <span>Deskripsi : </span>
+                        <p>
+                            Website Profil Produk ( Landing Page ) Fasty. Fasty adalah sebuah produk aplikasi yang akan membantu 
+                            mengelola bisnis restoran atau kafe. Aplikasi ini dibuat menggunakan bahasa pemrograman PHP dan Javascript 
+                            dengan menggunakan Framework Laravel, dan Database menggunakan MySQL
+                        </p>
+                    </div>
+                </section>
+                <section class="w-full bg-white shadow rounded p-5 mb-5" >
+                    <img src="./assets/image/portfolio/self-order-fasty.png" alt="" class="mb-3">
+                    <hr>
+                    <h1 class="my-3 text-lg font-bold uppercase" >Aplikasi Pemesanan Online ( Self Order )</h1>
+                    <div class="text-xs font-light mb-1" >
+                        <span>TAG : Javascript, Node JS, Vue, Tailwind CSS</span>
+                    </div>
+                    <div class="text-xs font-light mb-1" >
+                        <span>Deskripsi : </span>
+                        <p>
+                            Termasuk salah satu dari Fasty, aplikasi self order akan memudahkan interaksi antara pelanggan denga kasir untuk 
+                            bisnis restoran atau kafe. Aplikasi ini digunakan menggunakan bahasa pemrograman Javascript dan menggunakan Framework 
+                            Vue JS
+                        </p>
+                    </div>
+                </section>
             </div>
-            <section class="pb-12">
-                <div class="text-center my-4" >
-                    <h1 class="text-2xl uppercase font-bold mb-3" >Sayyid Deo Amirul Mukmin</h1>
-                    <p class="text-gray-400 text-sm" > Web Developer | Mobile Developer </p>
-                </div>
-                <div class="mx-auto md:w-6/12 p-5" >
-                    <p class="text-justify" >
-                        Nama saya Sayyid Deo Amirul Mukmin, biasa di panggil Deo. Kota kelahiran saya ada di sidoarjo dan tahun kelahiran saya 2001. Pendidikan terakhir saya untuk saat ini di tingkat SMK/SMA. Saya mendalami pemrograman web sejak kelas 2 SMK, dalam 3 tahun saya telah menyelesaikan beberapa aplikasi berbasis website dan mobile. 
-                    </p>
-                </div>
-                <div class="w-full text-center">
-                    <a class="bg-indigo-400 hover:bg-indigo-500 px-3 py-2 text-sm text-white" href="./assets/pdf/Curiculum-Vitae-PDF-2022.pdf">Download Resume</a>
-                </div>
-            </section>
-            <section class="pb-12 w-ful" >
-                <div class="mx-auto w-6/12 text-center" >
-                    <h1 class="text-4xl font-semibold mb-5 uppercase" >Kemampuan</h1>
-                </div>
-                <div class="grid md:grid-cols-2 gap-10 w-10/12 mx-auto">
-                    <div class="py-4" >
-                        <div class="w-full mb-2">
-                            <div class="flex row justify-between mb-2">
-                                <h1 class="uppercase text-sm font-semibold" >html</h1>
-                                <h1 class="uppercase text-sm font-semibold" >70%</h1>
-                            </div>
-                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
-                                <div class="h-full bg-indigo-500 rounded-full" style="width: 70%;" ></div>
+            <div class="col-span-3 lg:col-span-2" >
+                <section class="w-full bg-white shadow p-5 mb-5">
+                    <h1 class="text-lg font-bold uppercase" >Keahlian</h1>
+                    <span class="block mb-3 text-xs font-light" >Seputar pemrograman</span>
+                    <hr>
+                    <div class="mt-3" >
+                        <div class="mb-1" >
+                            <span class="font-light text-sm uppercase" >HTML :</span>
+                            <div class="grid grid-cols-10 gap-1">
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
                             </div>
                         </div>
-                        <div class="w-full mb-2">
-                            <div class="flex row justify-between mb-2">
-                                <h1 class="uppercase text-sm font-semibold" >css</h1>
-                                <h1 class="uppercase text-sm font-semibold" >70%</h1>
-                            </div>
-                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
-                                <div class="h-full bg-indigo-500 rounded-full" style="width: 70%;" ></div>
-                            </div>
-                        </div>
-                        <div class="w-full mb-2">
-                            <div class="flex row justify-between mb-2">
-                                <h1 class="uppercase text-sm font-semibold" >Javascript</h1>
-                                <h1 class="uppercase text-sm font-semibold" >75%</h1>
-                            </div>
-                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
-                                <div class="h-full bg-indigo-500 rounded-full" style="width: 75%;"></div>
+                        <div class="mb-1" >
+                            <span class="font-light text-sm uppercase" >CSS :</span>
+                            <div class="grid grid-cols-10 gap-1">
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
                             </div>
                         </div>
-                        <div class="w-full mb-2">
-                            <div class="flex row justify-between mb-2">
-                                <h1 class="uppercase text-sm font-semibold" >PHP</h1>
-                                <h1 class="uppercase text-sm font-semibold" >80%</h1>
-                            </div>
-                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
-                                <div class="h-full bg-indigo-500 rounded-full" style="width: 80%;"></div>
-                            </div>
-                        </div>
-                        <div class="w-full mb-2">
-                            <div class="flex row justify-between mb-2">
-                                <h1 class="uppercase text-sm font-semibold" >MySql</h1>
-                                <h1 class="uppercase text-sm font-semibold" >60%</h1>
-                            </div>
-                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
-                                <div class="h-full bg-indigo-500 rounded-full" style="width: 60%;" ></div>
+                        <div class="mb-1" >
+                            <span class="font-light text-sm uppercase" >Javascript :</span>
+                            <div class="grid grid-cols-10 gap-1">
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
                             </div>
                         </div>
-                        <div class="w-full mb-2">
-                            <div class="flex row justify-between mb-2">
-                                <h1 class="uppercase text-sm font-semibold" >Laravel</h1>
-                                <h1 class="uppercase text-sm font-semibold" >85%</h1>
-                            </div>
-                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
-                                <div class="h-full bg-indigo-500 rounded-full" style="width: 85%;" ></div>
-                            </div>
-                        </div>
-                        <div class="w-full mb-2">
-                            <div class="flex row justify-between mb-2">
-                                <h1 class="uppercase text-sm font-semibold" >React & React Native</h1>
-                                <h1 class="uppercase text-sm font-semibold" >55%</h1>
-                            </div>
-                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
-                                <div class="h-full bg-indigo-500 rounded-full" style="width: 55%;" ></div>
+                        <div class="mb-1" >
+                            <span class="font-light text-sm uppercase" >PHP :</span>
+                            <div class="grid grid-cols-10 gap-1">
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="py-4" >
-                        <div class="w-full mb-2">
-                            <div class="flex row justify-between mb-2">
-                                <h1 class="uppercase text-sm font-semibold" >Kemauan Belajar</h1>
-                                <h1 class="uppercase text-sm font-semibold" >90%</h1>
-                            </div>
-                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
-                                <div class="h-full bg-pink-500 rounded-full" style="width: 90%;" ></div>
-                            </div>
-                        </div>
-                        <div class="w-full mb-2">
-                            <div class="flex row justify-between mb-2">
-                                <h1 class="uppercase text-sm font-semibold" >Pemecahan Masalah</h1>
-                                <h1 class="uppercase text-sm font-semibold" >80%</h1>
-                            </div>
-                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
-                                <div class="h-full bg-pink-500 rounded-full" style="width: 80%;" ></div>
+                        <div class="mb-1" >
+                            <span class="font-light text-sm uppercase" >MySQL :</span>
+                            <div class="grid grid-cols-10 gap-1">
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
                             </div>
                         </div>
-                        <div class="w-full mb-2">
-                            <div class="flex row justify-between mb-2">
-                                <h1 class="uppercase text-sm font-semibold" >Kreatifitas</h1>
-                                <h1 class="uppercase text-sm font-semibold" >70%</h1>
-                            </div>
-                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
-                                <div class="h-full bg-pink-500 rounded-full" style="width: 70%;"></div>
+                        <div class="mb-1" >
+                            <span class="font-light text-sm uppercase" >MongoDB :</span>
+                            <div class="grid grid-cols-10 gap-1">
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
                             </div>
                         </div>
-                        <div class="w-full mb-2">
-                            <div class="flex row justify-between mb-2">
-                                <h1 class="uppercase text-sm font-semibold" >Bekerja dalam tim</h1>
-                                <h1 class="uppercase text-sm font-semibold" >90%</h1>
+                        <div class="mb-1" >
+                            <span class="font-light text-sm uppercase" >Laravel :</span>
+                            <div class="grid grid-cols-10 gap-1">
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
                             </div>
-                            <div class="w-full h-2.5 bg-gray-200 rounded-full">
-                                <div class="h-full bg-pink-500 rounded-full" style="width: 90%;"></div>
+                        </div>
+                        <div class="mb-1" >
+                            <span class="font-light text-sm uppercase" >React & React Native :</span>
+                            <div class="grid grid-cols-10 gap-1">
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
+                            </div>
+                        </div>
+                        <div class="mb-1" >
+                            <span class="font-light text-sm uppercase" >Vue JS :</span>
+                            <div class="grid grid-cols-10 gap-1">
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-500" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
+                                <div class="w-full rounded-full p-1 bg-indigo-200" ></div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section class="pb-12 w-full">
-                <div class="mx-auto w-6/12 text-center" >
-                    <h1 class="text-4xl font-semibold mb-5 uppercase" >Portofolio</h1>
-                </div>
-                <div class="grid md:grid-cols-3 gap-10">
-                    <div class="bg-white shadow-lg rounded-lg overflow-hidden" >
-                        <img src="./assets/image/portfolio/cbt-online-1.png" alt="" class="bd-placeholder-img card-img-top">
-                        <div class="px-4 py-6">
-                            <p class="text-sm">
-                                Computer Based Test (CBT) Online adalah aplikasi berbasis website untuk test/ujian sekolah. 
-                            </p>
+                </section>
+                <section class="w-full bg-white shadow p-5 mb-5">
+                    <h1 class="text-lg font-bold uppercase" >Keahlian</h1>
+                    <span class="block mb-3 text-xs font-light" >Keterampilan Umum</span>
+                    <hr>
+                    <div class="mt-3" >
+                        <div class="mb-1" >
+                            <span class="font-light text-sm uppercase" >Kemauan Belajar :</span>
+                            <div class="grid grid-cols-10 gap-1">
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-300" ></div>
+                            </div>
+                        </div>
+                        <div class="mb-1" >
+                            <span class="font-light text-sm uppercase" >Pemecahan Masalah :</span>
+                            <div class="grid grid-cols-10 gap-1">
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-300" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-300" ></div>
+                            </div>
+                        </div>
+                        <div class="mb-1" >
+                            <span class="font-light text-sm uppercase" >Kreatifitas :</span>
+                            <div class="grid grid-cols-10 gap-1">
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-300" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-300" ></div>
+                            </div>
+                        </div>
+                        <div class="mb-1" >
+                            <span class="font-light text-sm uppercase" >Komunikasi :</span>
+                            <div class="grid grid-cols-10 gap-1">
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-300" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-300" ></div>
+                            </div>
+                        </div>
+                        <div class="mb-1" >
+                            <span class="font-light text-sm uppercase" >Bekerja Dalam Tim :</span>
+                            <div class="grid grid-cols-10 gap-1">
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-600" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-300" ></div>
+                                <div class="w-full rounded-full p-1 bg-rose-300" ></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="bg-white shadow-lg rounded-lg overflow-hidden" >
-                        <img src="./assets/image/portfolio/sma-mutiarabunda-1.png" alt="" class="bd-placeholder-img card-img-top">
-                        <div class="px-4 py-6">
-                            <p class="text-sm">
-                                Website Profil Sekolah, mengelola data mulai dari event kegiatan, berita dan pengumuman sekolah.
-                            </p>
+                </section>
+                <section class="w-full bg-white shadow p-5 mb-5">
+                    <h1 class="text-lg font-bold uppercase mb-3" >Profil</h1>
+                    <hr>
+                    <div class="mt-3" >
+                        <div class="mb-1" >
+                            <span class="font-light text-xs" >Nama Lengkap :</span>
+                            <h1 class="text-sm font-bold uppercase" >Sayyid Deo Amirul Mukmin</h1>
+                        </div>
+                        <div class="mb-1" >
+                            <span class="font-light text-xs" >Nama Panggilan :</span>
+                            <h1 class="text-sm font-bold uppercase" >Deo</h1>
+                        </div>
+                        <div class="mb-1" >
+                            <span class="font-light text-xs" >Tempat, Tanggal Lahir :</span>
+                            <h1 class="text-sm font-bold uppercase" >Sidoarjo, 13 April 2001</h1>
+                        </div>
+                        <div class="mb-1" >
+                            <span class="font-light text-xs" >Tempat Tinggal Sekarang :</span>
+                            <h1 class="text-sm font-bold uppercase" >Gedangan, Sidoarjo - Jawa Timur</h1>
+                        </div>
+                        <div class="mb-1" >
+                            <span class="font-light text-xs" >Nomor Telepon :</span>
+                            <h1 class="text-sm font-bold uppercase" >+62 822-2823-0137</h1>
                         </div>
                     </div>
-                    <div class="bg-white shadow-lg rounded-lg overflow-hidden" >
-                        <img src="./assets/image/portfolio/ERP-Application.png" alt="" class="bd-placeholder-img card-img-top">
-                        <div class="px-4 py-6">
-                            <p class="text-sm">
-                                Enterprise Resource Planning (ERP) Application untuk mengelola data dan beberapa aktivitas operasional bisnis
-                            </p>
-                        </div>
-                    </div>
-                    <div class="bg-white shadow-lg rounded-lg overflow-hidden" >
-                        <img src="./assets/image/portfolio/Sistem-Order-Application.png" alt="" class="bd-placeholder-img card-img-top">
-                        <div class="px-4 py-6">
-                            <p class="text-sm">
-                                Sistem Order Application untuk mengelola data dan mengelola pesanan barang vendor atau pelanggan
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="pt-12 w-full" >
-                <p class="text-xs md:text-sm text-gray-400" >
-                    Kontak yang bisa di hubungi : +62 822 - 2823 - 0137
-                </p>
-                <p class="text-xs md:text-sm text-gray-400" >
-                    copyright &copy; sayyiddeo.real@gmail.com
-                </p>
-            </section>
+                </section>
+            </div>
         </div>
+        <div class="flex flex-row">
+            
+            
+        </div>
+        
     </main>
-
-    <!-- <script src="./assets/js/jquery.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <script src="./assets/js/script.js"></script> -->
 </body>
 
 </html>

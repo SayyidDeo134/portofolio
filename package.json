@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./assets/tailwindcss/app.css -o ./assets/css/app.css --watch"
+  },
   "devDependencies": {
     "tailwindcss": "^3.0.23"
   }
